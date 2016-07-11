@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" fx:controller="sample.Status" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="291.0" layoutY="46.0" text="Order ID : ">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="order_id" layoutX="467.0" layoutY="46.0" text="Label">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="291.0" layoutY="88.0" text="Status : ">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="status" layoutX="467.0" layoutY="88.0" text="Label">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <TableView fx:id="orders" layoutX="77.0" layoutY="140.0" prefHeight="362.0" prefWidth="649.0">
+        <columns>
+        </columns>
+      </TableView>
+      <Label layoutX="541.0" layoutY="538.0" text="Total : ">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="total" layoutX="619.0" layoutY="538.0" text="Label">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

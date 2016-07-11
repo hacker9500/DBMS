@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.StatusPending">
+    <children>
+        <Label layoutX="86.0" layoutY="57.0" text="Order ID : ">
+            <font>
+                <Font name="System Bold" size="17.0" />
+            </font>
+        </Label>
+        <Label fx:id="order_id" layoutX="199.0" layoutY="57.0" text="Label">
+            <font>
+                <Font name="System Bold" size="17.0" />
+            </font>
+        </Label>
+        <Label layoutX="86.0" layoutY="99.0" text="Status : ">
+            <font>
+                <Font name="System Bold" size="17.0" />
+            </font>
+        </Label>
+        <Label fx:id="status" layoutX="199.0" layoutY="99.0" text="Label">
+            <font>
+                <Font name="System Bold" size="17.0" />
+            </font>
+        </Label>
+        <TableView fx:id="orders" layoutX="77.0" layoutY="184.0" prefHeight="318.0" prefWidth="649.0">
+            <columns>
+            </columns>
+        </TableView>
+        <Label layoutX="541.0" layoutY="538.0" text="Total : ">
+            <font>
+                <Font name="System Bold" size="17.0" />
+            </font>
+        </Label>
+        <Label fx:id="total" layoutX="619.0" layoutY="538.0" text="Label">
+            <font>
+                <Font name="System Bold" size="17.0" />
+            </font>
+        </Label>
+        <Label layoutX="472.0" layoutY="99.0" text="User Location:">
+            <font>
+                <Font name="System Bold" size="17.0" />
+            </font>
+        </Label>
+        <Label layoutX="513.0" layoutY="57.0" text="User ID : ">
+            <font>
+                <Font name="System Bold" size="17.0" />
+            </font>
+        </Label>
+        <Label fx:id="userLocation" layoutX="623.0" layoutY="99.0" text="Label">
+            <font>
+                <Font name="System Bold" size="17.0" />
+            </font>
+        </Label>
+        <Label fx:id="userId" layoutX="623.0" layoutY="57.0" text="Label">
+            <font>
+                <Font name="System Bold" size="17.0" />
+            </font>
+        </Label>
+      <Button fx:id="next" layoutX="14.0" layoutY="97.0" mnemonicParsing="false" text="next" />
+    </children>
+</AnchorPane>

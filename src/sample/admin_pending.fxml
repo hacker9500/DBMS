@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Admin_Pending">
+   <children>
+      <Label layoutX="90.0" layoutY="39.0" text="Pending Orders">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Button fx:id="all_btn" layoutX="561.0" layoutY="37.0" mnemonicParsing="false" text="All Orders">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <TableView fx:id="pending" layoutX="82.0" layoutY="105.0" prefHeight="432.0" prefWidth="633.0">
+        <columns>
+        </columns>
+      </TableView>
+      <Button fx:id="refresh" layoutX="466.0" layoutY="37.0" mnemonicParsing="false" text="Refresh" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.placeOrder">
+   <children>
+      <Label layoutX="70.0" layoutY="37.0" text="Select Items">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <TableView fx:id="menu" layoutX="71.0" layoutY="79.0" prefHeight="411.0" prefWidth="659.0">
+        <columns>
+        </columns>
+      </TableView>
+      <Button fx:id="place" layoutX="622.0" layoutY="524.0" mnemonicParsing="false" text="Place Order">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
